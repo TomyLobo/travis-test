@@ -1,0 +1,9 @@
+language: cpp
+compiler: clang
+deploy:
+  provider: releases
+  api_key:
+    secure: f48SbRr1/FcQz39BhoW/GJKDxZOTtUyIai9mgvkgRPPtfrbXrD04wZHZUCm86s4tf2lFd5/VPQHm6YJ/nMFKmRtMduw4rDd3U9BQxPig4MEWn3qCItvv0vtwpfAI60lNB+/CjfP/up5HxrwtjCXl+4NGRyMrJYuD3lIAc8JhAvJI/D86nFzSCPJMOmjuM25G9KyiiekSRr0YSSIB+Yf1TtrPvCu5imenr64rp5LbuqQLt7Bh8IzDOawsXSSvncJ3STbQike0MQJX4eNN3U96ZxgAmqlnQIQAAV/Y5zq9xID0zs88w6uxDEVQeyiXvTI5DZLFJymvwWxOtBwmrjuEqsydRhlxrWmzdObUwvkQ2DI95ebYLqADZG8ekWnkmB927YppcQipZqrCC/LZxkqtCiQYFycw2MHQoXwivDxwTeq4sz+cgolm+I+X8r54aRQxQ0zXA+xbXiGDV/IPFvcjxx+tr4IhruHxew5Op/L1kLEvv0SMnnHAOP/eJ4rbwHTojjaeEypZCDRRwonBVwJNlakLPwaVTf8+PYinDsNPGoCMZGR0LiZEoideeGYqOlmCLJ1QtbNGd+/2WRrBRwSat+xuYpywsHypQXs4rjnCjC105OirbP4+W3BkxvhtAf8uofWZeEvqCvk+24tttYh8vWKIGw/iJHzQO7TZOIosIHc=
+  file: ".travis.yml"
+  on:
+    repo: TomyLobo/travis-test
