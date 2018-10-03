@@ -1,5 +1,4 @@
-#language: cpp
-#compiler: clang
+language: minimal
 deploy:
   provider: releases
   api_key:
